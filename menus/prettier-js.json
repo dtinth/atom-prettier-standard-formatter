@@ -3,7 +3,7 @@
     "atom-text-editor[data-grammar='source js']": [
       {
         "label": "Format With prettier",
-        "command": "prettier:format"
+        "command": "prettier-standard-formatter:format"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "prettier",
+          "label": "prettier-standard-formatter",
           "submenu": [
             {
               "label": "Format",
-              "command": "prettier:format"
+              "command": "prettier-standard-formatter:format"
             }
           ]
         }
