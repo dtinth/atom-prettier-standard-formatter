@@ -1,23 +1,19 @@
-# Prettier formatter for Atom
+# prettier-standard-formatter for Atom
 
-Atom package to format your Javascript using [Prettier](https://github.com/jlongster/prettier).
+Atom package to format your JavaScript using [prettier-standard-formatter](https://github.com/dtinth/prettier-standard-formatter).
 
 ### Usage
 
 #### Keybindings
 
-Use `ctrl-alt-f` to format the current Javascript file. If a text selection is made, only the selected text will be formatted.
+Use <kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>F</kbd> to format the current JavaScript file.
+If a text selection is made, only the selected text will be formatted.
 
 #### Format On Save
 
-Automatically format your Javascript file on save by enabling the *Format On Save* package setting.  This is off by default.
+This is broken because the formatting code is running asynchronously.
+Contributions welcome.
 
 #### Menu
 
-*Packages > standard-formatter > Format*
-
-### Settings
-
-#### formatOnSave (default: false)
-
-Format Javascript files when saving.
+Packages &rarr; prettier-standard-formatter &rarr; Format
