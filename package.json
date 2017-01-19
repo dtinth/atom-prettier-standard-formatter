@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "find-root": "^0.1.1",
-    "prettier-standard-formatter": "^0.0.222222222222222",
+    "prettier-standard-formatter": "^0.111111111111111.111111111111111",
     "process-communication": "^1.1.0"
   },
   "devDependencies": {}
